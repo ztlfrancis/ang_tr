@@ -1,0 +1,24 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar >
+        <img [src]="img" class="avatar">
+      </div>
+      <mat-card-title>{{index}}</mat-card-title>
+      <mat-card-subtitle>september 14,2016</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{bgimg}} alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        {{first_name}} {{last_name}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-icon-button  aria-label="Example icon button with a heart icon">
+            <mat-icon>favorite</mat-icon>
+          </button>
+          <button mat-icon-button  aria-label="Example icon button with a heart icon">
+            <mat-icon>share</mat-icon>
+          </button>
+    </mat-card-actions>
+  </mat-card>
+
